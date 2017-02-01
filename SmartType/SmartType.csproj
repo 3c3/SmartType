@@ -113,7 +113,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="autodisable.txt" />
+    <Content Include="autoenable.txt" />
+    <Content Include="bgWords.txt" />
+    <Content Include="enWords.txt" />
     <Content Include="ico1.ico" />
+    <Content Include="layouts.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
